@@ -40,6 +40,7 @@ function operate(num1, num2, operator) {
 function updateScreen(content) {
   const screen = document.querySelector("#screen");
   screen.textContent = content;
+  console.log(content);
 }
 
 function handleNumberClick(number) {
