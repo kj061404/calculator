@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+  height: 650px;
+
+}
+
+#screen {
+  height: 148px;
+  width: 390px;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+
+}
+
+#number-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.number {
+  height: 98px;
+  width: 98px;
+  background-color: white;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#operator-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.operator {
+  height: 98px;
+  width: 98px;
+  background-color: lightgrey;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.operator:hover {
+  background-color: grey;
+  transition-duration: .3s;
+}
+
+.operator:active {
+  background-color: black;
+  color: white;
+}
+
+.number:hover {
+  background-color: lightgrey;
+  transition-duration: .3s;
+}
+
+.number:active {
+  background-color: black;
+  color: white;
+}
+
+#nine {
+  border-bottom-left-radius: 10px;
+}
+
+#equals {
+  border-bottom-right-radius: 10px;
+  background-color: orange;
+}
+
+#equals:hover {
+  background-color: darkorange;
+  transition-duration: .3s;
+}
+
+#equals:active {
+  opacity: .7;
+  color: white;
+}
